@@ -44,7 +44,7 @@ namespace imageresize.Converter
                     case "png":
                         return MagickFormat.Png24;
                     case "jpeg":
-                        case "jpg"
+                    case "jpg":
                         return MagickFormat.Jpeg;
                 }
             }

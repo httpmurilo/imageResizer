@@ -2,13 +2,31 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.2": {
-      "Magick.NET-Q16-AnyCPU/7.14.0": {
+      "Magick.NET-Q16-AnyCPU/7.14.0.3": {
         "type": "package",
         "compile": {
           "lib/netstandard20/Magick.NET-Q16-AnyCPU.dll": {}
         },
         "runtime": {
           "lib/netstandard20/Magick.NET-Q16-AnyCPU.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/Magick.Native-Q16-x64.dll.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/Magick.Native-Q16-x64.dll.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/Magick.Native-Q16-x64.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/Magick.Native-Q16-x86.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -4733,10 +4751,10 @@
     }
   },
   "libraries": {
-    "Magick.NET-Q16-AnyCPU/7.14.0": {
-      "sha512": "CKk4Mmqxie3A8Z78Xe4vsco0/x/mr8BznNPlu2HHn+/Yatx07NVEb+5MXLuERPUouUud6jkhhxLEwaT+C8Prpw==",
+    "Magick.NET-Q16-AnyCPU/7.14.0.3": {
+      "sha512": "IvI/VJ0XUyK2HuRJ/ezHTqcvc2bkjVjTIpM+mbxER2VBmilJzvAomubH5U1WNk4nzkYMX92yIew7QM+88EE+kw==",
       "type": "package",
-      "path": "magick.net-q16-anycpu/7.14.0",
+      "path": "magick.net-q16-anycpu/7.14.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4749,8 +4767,12 @@
         "lib/netstandard13/Magick.NET-Q16-AnyCPU.xml",
         "lib/netstandard20/Magick.NET-Q16-AnyCPU.dll",
         "lib/netstandard20/Magick.NET-Q16-AnyCPU.xml",
-        "magick.net-q16-anycpu.7.14.0.nupkg.sha512",
-        "magick.net-q16-anycpu.nuspec"
+        "magick.net-q16-anycpu.7.14.0.3.nupkg.sha512",
+        "magick.net-q16-anycpu.nuspec",
+        "runtimes/linux-x64/native/Magick.Native-Q16-x64.dll.so",
+        "runtimes/osx-x64/native/Magick.Native-Q16-x64.dll.dylib",
+        "runtimes/win-x64/native/Magick.Native-Q16-x64.dll",
+        "runtimes/win-x86/native/Magick.Native-Q16-x86.dll"
       ]
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -12985,7 +13007,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "Magick.NET-Q16-AnyCPU >= 7.14.0",
+      "Magick.NET-Q16-AnyCPU >= 7.14.0.3",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
@@ -13038,7 +13060,7 @@
         "dependencies": {
           "Magick.NET-Q16-AnyCPU": {
             "target": "Package",
-            "version": "[7.14.0, )"
+            "version": "[7.14.0.3, )"
           },
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",

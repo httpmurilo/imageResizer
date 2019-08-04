@@ -20,7 +20,7 @@ namespace imageresize.Converter
 
         public int Quality { get; set; }
 
-        public string TargetMineType => GetTargetMineType()
+        public string TargetMineType => GetTargetMineType();
         private string GetTargetMineType()
         {
             switch(TargetFormat)

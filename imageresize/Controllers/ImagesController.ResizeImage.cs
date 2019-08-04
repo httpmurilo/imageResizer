@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace imageresize.Controllers
 {
 
-    [Route("api/image")]
+    
     public partial class ImageResizeController : Controller
     {
 
