@@ -22,6 +22,7 @@ namespace imageresize.Controllers
       [FromServices] IHostingEnvironment env
 
        )
+
        {
             if (!ModelState.IsValid)
             {
