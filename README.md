@@ -9,7 +9,7 @@
       <td>Propriedade</td>
     </tr>
     <tr>
-       <td>Name</td>
+       <td>Image Name</td>
       <td>Format</td>
     </tr>
     <tr>
