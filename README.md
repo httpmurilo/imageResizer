@@ -9,9 +9,6 @@
       <td>Propriedade</td>
     </tr>
     <tr>
-         <tr>
-      <td>Propriedade</td>
-    </tr>
        <td>Name</td>
       <td>Format</td>
     </tr>
