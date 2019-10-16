@@ -1,8 +1,8 @@
-<h6>Parâmetros a ser informados </h6>
+<h6>Parameters to be informed</h6>
 
 <table>
   <thead>
-    <th>Obrigatorio</th>
+    <th>Property</th>
   </thead>
   <tbody>
     <tr>
