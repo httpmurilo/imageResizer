@@ -1,4 +1,4 @@
-<h6>Parâmetros a ser validados </h6>
+<h6>Parâmetros a ser informados </h6>
 
 <table>
   <thead>
