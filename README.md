@@ -9,6 +9,11 @@
       <td>Propriedade</td>
     </tr>
     <tr>
-      <td>Nome do arquivo</td>
-      <td>Formato do arquivo</td>
+         <tr>
+      <td>Propriedade</td>
+    </tr>
+    <tr>
+      
+      <td>Name</td>
+      <td>Format</td>
     </tr>
