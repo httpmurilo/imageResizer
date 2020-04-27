@@ -12,43 +12,36 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace ImageResizer.Api
-{
-    public class Startup
-    {
-        public Startup(IConfiguration configuration)
-        {
+namespace ImageResizer.Api {
+    public class Startup {
+        public Startup (IConfiguration configuration) {
             Configuration = configuration;
         }
 
         public IConfiguration Configuration { get; }
 
-        public void ConfigureServices(IServiceCollection services)
-        {
-            services.AddControllers();
+        public void ConfigureServices (IServiceCollection services) {
+            services.AddControllers ();
         }
 
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
-        {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
+        public void Configure (IApplicationBuilder app, IWebHostEnvironment env) {
+            if (env.IsDevelopment ()) {
+                app.UseDeveloperExceptionPage ();
             }
-            app.UseExceptionHandler(appBuilder => 
-            {
+            app.UseExceptionHandler (appBuilder => {
                 appBuilder.Run (async context => {
-                context.Response.StatusCode = 500;
-                await context.Response.WriteAsync ("An unexpected fault happened. Try again later.");
+                    context.Response.StatusCode = 500;
+                    await context.Response.WriteAsync ("An unexpected fault happened. Try again later.");
+                });
             });
-            app.UseHttpsRedirection();
+            app.UseHttpsRedirection ();
 
-            app.UseRouting();
+            app.UseRouting ();
 
-            app.UseAuthorization();
+            app.UseAuthorization ();
 
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllers();
+            app.UseEndpoints (endpoints => {
+                endpoints.MapControllers ();
             });
         }
     }
