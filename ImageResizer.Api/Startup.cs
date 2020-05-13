@@ -34,8 +34,6 @@ namespace ImageResizer.Api {
                     await context.Response.WriteAsync ("An unexpected fault happened. Try again later.");
                 });
             });
-            app.UseHttpsRedirection ();
-
             app.UseRouting ();
 
             app.UseAuthorization ();

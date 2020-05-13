@@ -2,7 +2,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ImageResizer.Domain\ImageResizer.Domain.csproj" />
-    <ProjectReference Include="..\ImageResizer.Services\ImageResizer.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Magick.NET-Q16-AnyCPU" Version="7.17.0" />
   </ItemGroup>
 
   <PropertyGroup>
