@@ -3,10 +3,10 @@ using Xunit;
 
 namespace ImageResizer.Tests
 {
-    public class UnitTest1
+    public class GetDirectory
     {
         [Fact]
-        public void Test1()
+        public void Get()
         {
 
         }

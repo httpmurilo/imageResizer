@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageResizer.Api", "ImageRe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageResizer.Domain", "ImageResizer.Domain\ImageResizer.Domain.csproj", "{60EA3EB3-7BB0-4045-81A9-27467357B7F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageResizer.Services", "ImageResizer.Services\ImageResizer.Services.csproj", "{325BD2C2-B55E-4AAE-91A3-B60D182D06C4}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageResizer.Tests", "ImageResizer.Tests\ImageResizer.Tests.csproj", "{F38B5FEF-2A5B-4485-91E2-C893DF62FAAA}"
 EndProject
 Global

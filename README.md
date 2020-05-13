@@ -1,6 +1,6 @@
 # Image Resizer v 2.0
 
-Projeto de uma API para redimensionamento de imagem utilizando a biblioteca [Magick.NET](https://www.nuget.org/packages/Magick.NET-Q16-AnyCPU/), esse projeto pode ser útil em sistema ondem se faz necessário otimizar e diminuir tamanho de imagens e servicos de terceiros possuem limite de quantidade máximas de imagens dia.
+Projeto de  API para redimensionamento de imagem utilizando a biblioteca [Magick.NET](https://www.nuget.org/packages/Magick.NET-Q16-AnyCPU/), esse projeto pode ser útil em sistema onde se faz necessário otimizar e diminuir tamanho de imagens e servicos de terceiros possuem limite de quantidade máximas de imagens dia.
 
 ## Inicio
 Para uma cópia do projeto em execução na sua máquina local para fins de desenvolvimento e teste.
